@@ -1,0 +1,199 @@
+/*-------------------------- SECTION 1 */
+.section-1{
+    
+    border-width: 0.1em;
+    padding-bottom: 55px;
+    padding-left: 16px;
+
+    padding-right: 16px;
+    
+}
+.large-font{
+    font-size: 35px;
+}
+.small-font{
+    color: rgba(255, 255, 255, 0.598);
+}
+.box-main{
+
+    border: 0.1em solid rgba(255, 255, 255, 0.224);
+    border-radius: 4px;
+    background-color: rgb(20,21,20);
+}
+.box-top{
+    border-bottom: 0.1em solid rgba(255, 255, 255, 0.224);
+}
+.two-box-content p{
+    font-size: 14px;
+    padding-bottom: 0;
+    margin-bottom: 5px;
+}
+.para-1{
+    color: rgba(255, 255, 255, 0.598);
+
+}
+.para-under{
+    border-bottom: 0.1em dashed rgb(255, 255, 255);
+    color: white;
+}
+
+/*------------------- SECTION 2 */
+.section-2{
+    padding-left: 16px;
+
+    padding-right: 16px;
+}
+.s2b1-img{
+    width: 40px;
+
+}
+.s2-box-top-p p{
+    font-size: 13px;
+    padding: 0;
+    margin: 0;
+}
+.s2p2{
+    font-size: 11px;
+    color: rgba(255, 255, 255, 0.598); 
+}
+.two-box-content-2 p{
+    font-size: 15px;
+    padding-bottom: 0;
+    margin-bottom: 5px;
+}
+
+
+/* ----------SECTION 3------------- */
+
+.section-3{
+    padding-left: 16px;
+
+    padding-right: 16px;
+}
+
+
+/* ----------Donut chart */
+/* (A) PIE CHART */
+.hole {
+    width: 130px; height: 130px;
+    border-radius: 50%;
+    background:     rgb(20,21,20);
+  }
+.donut1 {
+    /* (A1) CIRCLE */
+    width: 150px; height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    border-radius: 50%;
+    margin-left: 50px;
+    /* (A2) SEGMENTS */
+    background: conic-gradient(
+        rgb(5,152,250) 0deg 320deg,
+      
+      blue 190deg 360deg
+    );
+  }
+  .donut2 {
+    /* (A1) CIRCLE */
+    width: 150px; height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    border-radius: 50%;
+   margin-left: 50px;
+    /* (A2) SEGMENTS */
+    background: conic-gradient(
+        rgb(5,152,250) 0deg 190deg,
+      
+      blue 190deg 360deg
+    );
+  }
+  
+  .hole p{
+    left: 20%;
+    position: absolute;
+    top: 43%;
+  }
+  .donut2 .hole p{
+    left: 30%;
+  }
+
+
+  /* ----- */
+  /* ------SECTION 3 */
+  .section-3{
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .imgs3{
+    width: 18px;
+  }
+  .s3-box-top-p p{
+    
+    padding: 0;
+    margin: 0;
+}
+.s3-large{
+  visibility: visible;
+
+}
+.s3-med{
+  visibility: hidden;
+  height: 0;
+  
+}
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: left;
+   
+  }
+  th{
+    color: rgba(255, 255, 255, 0.582);
+    font-size: 15px;
+    letter-spacing: 1.5px;
+  }
+  td{
+    font-size: 15px;
+
+  }
+  .s3-img{
+    width: 30px;
+
+}
+.s3p{
+    font-size: 10px;
+}
+@media (max-width:1143px) {
+    .s3-large{
+      visibility: hidden;
+      height: 0;
+      overflow: hidden;
+      width: 0;
+    }
+    .s3-med{
+      visibility: visible;
+      height: auto;
+    }
+    .donut1{
+      margin-left: 0px;
+  }
+  .donut2{
+      margin-left: 0px;
+  }
+}
+  @media (max-width:610px) {
+    .donut1{
+        margin-left: 100px;
+    }
+    .donut2{
+        margin-left: 100px;
+    }
+}

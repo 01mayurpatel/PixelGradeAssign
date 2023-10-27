@@ -1,0 +1,57 @@
+/*-------------------------- SECTION 1 */
+.section-1{
+    
+    padding-bottom: 55px;
+    padding-left: 16px;
+
+    padding-right: 16px;
+    
+}
+.large-font{
+    font-size: 35px;
+}
+.small-font{
+    color: rgba(255, 255, 255, 0.598);
+}
+.box-main{
+
+    border: 0.1em solid rgba(255, 255, 255, 0.224);
+    border-radius: 4px;
+    background-color: rgb(20,21,20);
+}
+.box-top{
+    border-bottom: 0.1em solid rgba(255, 255, 255, 0.224);
+}
+.two-box-content p{
+    font-size: 14px;
+    padding-bottom: 0;
+    margin-bottom: 5px;
+}
+.para-1{
+    color: rgba(255, 255, 255, 0.598);
+
+}
+.para-under{
+    border-bottom: 0.1em dashed rgb(255, 255, 255);
+    color: rgb(224, 221, 221);
+    
+}
+.box-down{
+    border-bottom: 0.1em solid rgba(255, 255, 255, 0.224);
+}
+.button-border-top{
+    border-top: 0.1em solid rgba(255, 255, 255, 0.224);
+
+}
+/*------------------- SECTION 2 */
+.section-2{
+    
+    padding-bottom: 55px;
+    padding-left: 16px;
+
+    padding-right: 16px;
+    
+}
+
+
+

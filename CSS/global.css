@@ -1,0 +1,94 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    
+    margin: 0;
+
+}
+html ,body{
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(24,25,24);
+    color: white;
+}
+:root {
+    --green : rgb(63,180,136);
+    --white: #ffffff;
+    --green-hover : rgb(2, 118, 74);
+}
+
+/* NAVBAR STYLING */
+.navbar{
+    color: white;
+}
+.nav-logo{
+    width: 55px;
+}
+.nav-box{
+    box-shadow: 0px 10px 6px 0px rgba(10, 10, 10, 0.75);
+    -webkit-box-shadow: 0px 10px 6px 0px rgba(20,21,20,0.75);
+    -moz-box-shadow: 0px 10px 6px 0px rgba(20,21,20,0.75);
+}
+
+/* NAVBAR ENDS */
+
+/* Button styling */
+button{
+    font-size: 13px;
+    background-color: var(--green);
+    border: none;
+    padding: 7px 10px;
+    color: white;
+    border-radius: 5px;
+    
+}
+button:hover{
+    background-color: var(--green-hover);
+}
+.button-dark{
+    background-color: rgb(24, 25, 24);
+    border: 0.1em solid rgba(255, 255, 255, 0.256);
+}
+.button-dark:hover{
+    background-color: rgb(32, 31, 31);
+}
+.button-diamond img{
+    width: 18px;
+    border-right: 0.1em solid rgba(255, 255, 255, 0.256);
+}
+.button-diamond{
+    background-color: rgb(24, 25, 24);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0.1em solid rgba(255, 255, 255, 0.256);
+}
+.button-diamond:hover{
+    background-color: rgb(32, 31, 31);
+}
+
+/* FOOTER */
+
+.footer{
+ background-color: rgb(20,21,20);
+ border-top: 0.1em solid rgba(255, 255, 255, 0.224);;
+ 
+}
+.foot-divs{
+    
+    align-items: center;
+
+}
+.foot-divs span{
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.511);
+}
+.foot-divs img:hover{
+    
+}
+.foot{
+    font-size: 25px;
+    padding-top: 5px;
+}
+.foot-divs img{
+    padding-bottom: 10px;
+}

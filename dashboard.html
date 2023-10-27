@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./CSS/dashboard.css">
+    <link rel="stylesheet" href="./CSS/global.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap" rel="stylesheet">
+    <title>project-travel</title>
+</head>
+
+<body>
+    <!-- NAVBAR -->
+    <div class="nav-box ">
+        <div>
+            <nav class="navbar navbar-dark  navbar-expand-lg ">
+
+                <a class="navbar-brand text-light" href="#"><img class="nav-logo" src="Assets/Newlogo.png"
+                        alt="">Romi.Finance</a>
+                <button class="navbar-toggler  text-light" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class=" collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class=" navbar-nav ml-auto">
+                        <li class=" nav-item px-2 active">
+                            <a class="text-light nav-link" href="index.html">Home <span
+                                    class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item px-2">
+                            <a class="nav-link text-light" href="dashboard.html">Dashboard</a>
+                        </li>
+                        <li class="nav-item dropdown px-2">
+                            <a class="nav-link dropdown-toggle  text-light" href="#" id="navbarDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                NFT
+                            </a>
+                            <div class="bg-dark dropdown-menu px-2" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item text-light" href="#">Mint</a>
+                                <a class="dropdown-item text-light" href="#">Stake NFT</a>
+
+                            </div>
+                        </li>
+                        <li class="nav-item px-2">
+                            <a class="nav-link text-light" href="earn.html">Earn</a>
+                        </li>
+                        <li class="nav-item px-2">
+                            <a class="nav-link text-light" href="#">Buy</a>
+                        </li>
+                        <li class="nav-item px-2">
+                            <a class="nav-link text-light" href="#">Referral</a>
+                        </li>
+                        <li class="nav-item px-2">
+                            <a class="text-light nav-link" href="#">Ecosystem</a>
+                        </li>
+                        <li class="nav-item px-2">
+                            <a class="nav-link text-light" href="#">About</a>
+                        </li>
+
+
+                    </ul>
+                    <form class="form-inline my-2 my-lg-0">
+                        <button class="mr-3 ">Trade</button>
+                        <button class="button-dark mr-3">Connect Wallet</button>
+                        <button class="button-diamond"><img class="mr-2 " src="Assets/diamond_black.svg" alt="">
+                            V
+
+                        </button>
+
+                    </form>
+                </div>
+            </nav>
+        </div>
+    </div>
+
+    <!-- NAVBAR ENDS -->
+
+    <!-- SECTION 1 -->
+    <div class="section-1">
+        <div class="col-md-12">
+            <div class="row pt-5">
+                <!-- Top right -->
+                <div class="col-lg-8 col-md-8 col-sm-12">
+                    <p class="large-font">Stats
+                        <img src="Assets/diamond.svg" alt="">
+                    </p>
+                    <p class="small-font">
+                        Ethereum Total Stats start from 06 Jan 2022.
+                        <br />
+                        For detailed stats:
+                    </p>
+
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12">
+
+                </div>
+            </div>
+
+            <!-- Two Boxes -->
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12 pl-2  pr-2 pt-2">
+                    <div class="box-main  pb-3">
+                        <div class="box-top p-3">
+                            Overview
+                        </div>
+                        <div class="pt-2 px-2">
+                            <div class="d-flex justify-content-between px-2 two-box-content">
+                                <p class="para-1">AUM</p>
+                                <p class="para-under">
+                                    $34</p>
+                            </div>
+                            <div class="px-2 d-flex justify-content-between two-box-content">
+                                <p class="para-1">$ZLP Pool</p>
+                                <p class="para-under">
+                                    $34</p>
+                            </div>
+                            <div class="px-2 d-flex justify-content-between two-box-content">
+                                <p class="para-1">24h Volume</p>
+                                <p class="para-under">
+                                    $0</p>
+                            </div>
+                            <div class="px-2 d-flex justify-content-between two-box-content">
+                                <p class="para-1">Long Positions</p>
+                                <p class="para-under">
+                                    $0</p>
+                            </div>
+                            <div class="px-2 d-flex justify-content-between two-box-content">
+                                <p class="para-1">Short Positions</p>
+                                <p class="para-under">
+                                    $0</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 pl-2  pr-2 pt-2">
+                    <div class="box-main  pb-3 h-100">
+                        <div class="box-top p-3">
+                            Total Stats
+                        </div>
+                        <div class="pt-2 px-2">
+                            <div class="d-flex justify-content-between px-2 two-box-content">
+                                <p class="para-1">Total Fees</p>
+                                <p class="para-under">
+                                    $0</p>
+                            </div>
+                            <div class="px-2 d-flex justify-content-between two-box-content">
+                                <p class="para-1">Total Volume</p>
+                                <p class="para-under">
+                                    $0</p>
+                            </div>
+                            <div class="px-2 d-flex justify-content-between two-box-content">
+                                <p class="para-1">Floor Price Fund</p>
+                                <p class="para-under">
+                                    $630,296</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- SECTION 2-->
+    <div class="section-2">
+        <div class="col-md-12">
+            <div class="row">
+                <!-- Top right -->
+                <div class="col-lg-8 col-md-8 col-sm-12">
+                    <p class="large-font">Tokens
+                        <img src="Assets/diamond.svg" alt="">
+                    </p>
+                    <p class="small-font">
+                        Platform and $ZLP index tokens.
+                    </p>
+
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12">
+
+                </div>
+            </div>
+
+            <!-- Two Boxes -->
+            <div class="row s2-boxes">
+                <div class=" col-lg-6 col-md-6 col-sm-12 pl-2  pr-2 pt-2">
+                    <div class="col-md-12">
+                        <div class="row box-main">
+                            <div class="col-lg-7 col-md-7 col-sm-12 pb-3 ">
+                                <div class="box-top p-3 ">
+                                    <div class="d-flex flex-row  s2-box-top">
+                                        <div class=""> <img src="Assets/s2b1.png" class="s2b1-img " alt=""></div>
+
+                                        <div class="s2-span pl-3 s2-box-top-p">
+                                            <p>$ZOMI</p>
+                                            <p class="s2p2">$ZOMI</p>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="pt-2 px-2 ">
+                                    <div class="d-flex justify-content-between  w-100 two-box-content-2">
+                                        <p class="para-1">Price</p>
+                                        <p class="para-under">
+                                            $0</p>
+                                    </div>
+                                    <div class=" d-flex justify-content-between two-box-content-2">
+                                        <p class="para-1">Supply</p>
+                                        <p class="para-under">
+                                            10,000 $ZOMI</p>
+                                    </div>
+                                    <div class=" d-flex justify-content-between two-box-content-2">
+                                        <p class="para-1">Total Staked</p>
+                                        <p class="para-under">
+                                            $0</p>
+                                    </div>
+                                    <div class=" d-flex justify-content-between two-box-content-2">
+                                        <p class="para-1">Market Cap</p>
+                                        <p class="para-under">
+                                            $10</p>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="col-lg-5 col-md-5 pt-3 col-sm-12">
+
+                                <div class="donut1 mt-3 mb-3">
+                                    <div class="hole">
+                                        <p>Distribution</p>
+                                    </div>
+                                </div>
+
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 s2-box-2 pl-2  pr-2 pt-2">
+                    <div class="col-md-12">
+                        <div class="box-main row">
+                            <div class="col-lg-7 col-md-7 col-sm-12 pb-3 h-100">
+                                <div class="box-top p-3 ">
+                                    <div class="d-flex flex-row  s2-box-top">
+                                        <div class=""> <img src="Assets/s2b1.png" class="s2b1-img " alt=""></div>
+
+                                        <div class="s2-span pl-3 s2-box-top-p">
+                                            <p>$ZOMI</p>
+                                            <p class="s2p2">$ZOMI</p>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="pt-2 px-2 ">
+                                    <div class="d-flex justify-content-between  w-100 two-box-content-2">
+                                        <p class="para-1">Price</p>
+                                        <p class="para-unde r">
+                                            $0</p>
+                                    </div>
+                                    <div class=" d-flex justify-content-between two-box-content-2">
+                                        <p class="para-1">Supply</p>
+                                        <p class="para-under">
+                                            10,000 $ZOMI</p>
+                                    </div>
+                                    <div class=" d-flex justify-content-between two-box-content-2">
+                                        <p class="para-1">Total Staked</p>
+                                        <p class="para-under">
+                                            $0</p>
+                                    </div>
+                                    <div class=" d-flex justify-content-between two-box-content-2">
+                                        <p class="para-1">Market Cap</p>
+                                        <p class="para-under">
+                                            $10</p>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="col-lg-5 pt-3 col-md-5 col-sm-12">
+                                <div class="donut2  mt-3 mb-3">
+                                    <div class="hole">
+                                        <p>ZLP Pool</p>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    
+    <!-- --------- -->
+
+    <div class="section-3 m-2 ">
+        <div class="box-main mt-3 s3-large pb-3">
+            <div class="box-top p-3">
+                $ZLP Index Composition <img class="imgs3" src="Assets/diamond.svg" alt="">
+            </div >
+            <div class="p-3">
+                <table>
+                    <tr>
+                      <th>TOKEN</th>
+                      <th>PRICE</th>
+                    <th>POOL</th>
+                    <th>WEIGHT</th>
+                    <th>UTILIZATION</th>
+                    </tr>
+                    <tr>
+                      <td>
+                        <div class="d-flex flex-row  s2-box-top">
+                            <div class=""> <img src="Assets/t1.svg" class="s3-img " alt=""></div>
+
+                            <div class="s2-span pl-3 s3-box-top-p">
+                                <p>Wrapped Bitcoin
+                                    
+                                    </p>
+                                <p class="s3p">WBTC</p>
+
+                            </div>
+                        </div>
+                      </td>
+                      <td>$1,766.07</td>
+                      <td>	$19</td>
+                      <td>	50.49% / 25.00%</td>
+                      <td>	0.00%</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <div class="d-flex flex-row  s2-box-top">
+                            <div class=""> <img src="Assets/t2.svg" class="s3-img " alt=""></div>
+
+                            <div class="s2-span pl-3 s3-box-top-p">
+                                <p>ApeCoin
+                                    </p>
+                                <p class="s3p">APE</p>
+
+                            </div>
+                        </div>
+                      </td>
+                      <td>$33,627.66</td>
+                      <td>$0</td>
+                      <td>0.00% / 25.00%</td>
+                      <td>0.00%</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <div class="d-flex flex-row  s2-box-top">
+                            <div class=""> <img src="Assets/t3.svg" class="s3-img " alt=""></div>
+
+                            <div class="s2-span pl-3 s3-box-top-p">
+                                <p>USD Coin
+                                    </p>
+                                <p class="s3p">USDC</p>
+
+                            </div>
+                        </div>
+                      </td>
+                      <td>$1.27</td>
+                      <td>$0</td>
+                      <td>0.00% / 25.00%</td>
+                      <td>0.00%</td>
+                    </tr>
+                    <tr>
+                      <td> <div class="d-flex flex-row  s2-box-top">
+                        <div class=""> <img src="Assets/t4.svg" class="s3-img " alt=""></div>
+
+                        <div class="s2-span pl-3 s3-box-top-p">
+                            <p>Ethereum
+                                
+                                </p>
+                            <p class="s3p">ETH</p>
+
+                        </div>
+                    </div></td>
+                      <td>$1.00</td>
+                      <td>$14</td>
+                      <td>49.50% / 25.00%</td>
+                      <td>0.00%</td>
+                    </tr>
+                  </table>
+            </div>
+        </div>
+        <div class="col-md-12  s3-med">
+            <div class="row">
+                <div class="col-lg-6 mt-3 col-md-6 col-sm-12 pl-2  pr-2 pt-2">
+                    <div class="box-main  pb-3">
+                        <div class="box-top p-3 ">
+                            <div class="d-flex flex-row  s2-box-top">
+                                <div class=""> <img src="Assets/t1.svg" class="s2b1-img " alt=""></div>
+
+                                <div class="s2-span pl-3 s2-box-top-p">
+                                    <p>Ethereum</p>
+                                    <p class="s2p2">ETH</p>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="pt-2 px-2">
+                            <div class="d-flex justify-content-between px-2 two-box-content">
+                                <p class="para-1">Price</p>
+                                <p class="para-under">
+                                    $34</p>
+                            </div>
+                            <div class="px-2 d-flex justify-content-between two-box-content">
+                                <p class="para-1">Pool</p>
+                                <p class="para-under">
+                                    $34</p>
+                            </div>
+                            <div class="px-2 d-flex justify-content-between two-box-content">
+                                <p class="para-1">Weight</p>
+                                <p class="para-under">
+                                    $0</p>
+                            </div>
+                            <div class="px-2 d-flex justify-content-between two-box-content">
+                                <p class="para-1">Utilization</p>
+                                <p class="para-under">
+                                    $0</p>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 pl-2 mt-3 pr-2 pt-2">
+                    <div class="box-main  pb-3">
+                        <div class="box-top p-3 ">
+                            <div class="d-flex flex-row  s2-box-top">
+                                <div class=""> <img src="Assets/t2.svg" class="s2b1-img " alt=""></div>
+
+                                <div class="s2-span pl-3 s2-box-top-p">
+                                    <p>Wrapped Bitcoin</p>
+                                    <p class="s2p2">WBTC</p>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="pt-2 px-2">
+                            <div class="d-flex justify-content-between px-2 two-box-content">
+                                <p class="para-1">Price</p>
+                                <p class="para-under">
+                                    $34</p>
+                            </div>
+                            <div class="px-2 d-flex justify-content-between two-box-content">
+                                <p class="para-1">Pool</p>
+                                <p class="para-under">
+                                    $34</p>
+                            </div>
+                            <div class="px-2 d-flex justify-content-between two-box-content">
+                                <p class="para-1">Weight</p>
+                                <p class="para-under">
+                                    $0</p>
+                            </div>
+                            <div class="px-2 d-flex justify-content-between two-box-content">
+                                <p class="para-1">Utilization</p>
+                                <p class="para-under">
+                                    $0</p>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-12 s3-med">
+            <div class="row">
+                <div class="col-lg-6 mt-3  col-md-6 col-sm-12 pl-2  pr-2 pt-2">
+                    <div class="box-main  pb-3">
+                        <div class="box-top p-3 ">
+                            <div class="d-flex flex-row  s2-box-top">
+                                <div class=""> <img src="Assets/t3.svg" class="s2b1-img " alt=""></div>
+
+                                <div class="s2-span pl-3 s2-box-top-p">
+                                    <p>USD Coin</p>
+                                    <p class="s2p2">USDC</p>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="pt-2 px-2">
+                            <div class="d-flex justify-content-between px-2 two-box-content">
+                                <p class="para-1">Price</p>
+                                <p class="para-under">
+                                    $34</p>
+                            </div>
+                            <div class="px-2 d-flex justify-content-between two-box-content">
+                                <p class="para-1">Pool</p>
+                                <p class="para-under">
+                                    $34</p>
+                            </div>
+                            <div class="px-2 d-flex justify-content-between two-box-content">
+                                <p class="para-1">Weight</p>
+                                <p class="para-under">
+                                    $0</p>
+                            </div>
+                            <div class="px-2 d-flex justify-content-between two-box-content">
+                                <p class="para-1">Utilization</p>
+                                <p class="para-under">
+                                    $0</p>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 pl-2 mt-3 pr-2 pt-2">
+                    <div class="box-main  pb-3">
+                        <div class="box-top p-3 ">
+                            <div class="d-flex flex-row  s2-box-top">
+                                <div class=""> <img src="Assets/t4.svg" class="s2b1-img " alt=""></div>
+
+                                <div class="s2-span pl-3 s2-box-top-p">
+                                    <p>Ethereum</p>
+                                    <p class="s2p2">ETH</p>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="pt-2 px-2">
+                            <div class="d-flex justify-content-between px-2 two-box-content">
+                                <p class="para-1">Price</p>
+                                <p class="para-under">
+                                    $34</p>
+                            </div>
+                            <div class="px-2 d-flex justify-content-between two-box-content">
+                                <p class="para-1">Pool</p>
+                                <p class="para-under">
+                                    $34</p>
+                            </div>
+                            <div class="px-2 d-flex justify-content-between two-box-content">
+                                <p class="para-1">Weight</p>
+                                <p class="para-under">
+                                    $0</p>
+                            </div>
+                            <div class="px-2 d-flex justify-content-between two-box-content">
+                                <p class="para-1">Utilization</p>
+                                <p class="para-under">
+                                    $0</p>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+
+    <div class="footer mt-5 pt-5">
+        <div class="foot-divs text-center  foot"><img class="nav-logo" src="Assets/Newlogo.png" alt="">Romi.Finance</div>
+        <div class="foot-divs text-center p-2 mt-3">
+            <img src="Assets/twitter.svg" class="mx-3" alt="">
+            <img src="Assets/m.svg" class="mx-3" alt="">
+            <img src="Assets/github.svg" class="mx-3" alt="">
+            <img src="Assets/telegram.svg" class="mx-3" alt="">
+            <img src="Assets/discord.svg" class="mx-3" alt="">
+        </div>
+        <div class="foot-divs text-center p-2 mt-3">
+            <span>Terms and Conditions</span>
+            <span>
+                Referral Terms</span>
+            <span>Media Kit</span>
+        </div>
+    </div>
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+
+</html>
